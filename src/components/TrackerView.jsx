@@ -106,7 +106,7 @@ export default function TrackerView() {
         </div>
       )}
       <div className="max-w-xl mx-auto p-20 px-4 text-zinc-900 dark:text-white">
-        <h1 className="text-3xl font-bold mb-2 text-center">Your Tracker</h1>
+        <h1 className="text-3xl font-bold mb-2 text-center">Bebo's Tracker</h1>
         <LevelDisplay level={level} nextRewardLevel={nextReward?.level || null} />
         <div className="bg-white dark:bg-zinc-800 rounded-2xl shadow p-4 mb-4">
           <div className="font-semibold mb-2">Today's Status</div>

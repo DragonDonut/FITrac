@@ -141,7 +141,7 @@ export default function AdminView() {
 
   return (
     <div className="max-w-xl mx-auto p-10 px-4">
-      <h1 className="text-2xl font-bold mb-2">Admin Dashboard</h1>
+      <h1 className="text-2xl font-bold mb-2">NY's Dashboard</h1>
       <div className="flex gap-2 mb-4">
         <button
           onClick={() => toggleAction('meal')}
